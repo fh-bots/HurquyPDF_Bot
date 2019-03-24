@@ -14,7 +14,12 @@ $ pip install pdf2image
 $ pip install pypdf2
 '''
 
-BOT_TOKEN = "591227147:AAGGCzDPondBhulHcEf6yjbGmeJTdICJzf8"
+
+msn_info = "A Bot [@HurquyPDF_Bot](https://t.me/HurquyPDF_Bot) that allow convert PDF to Images  \n\nThe Project [@HurquyPDF_Bot](https://t.me/HurquyPDF_Bot) \n__Github__: [jhonijlm](https://github.com/jhonijlm) \n__Twitter__: [jhnoijlm](https://twitter.com/jhonijlm) \nDonate: [jhonijlm](https://www.paypal.me/jhonijlm)"
+msn_notice = "__RULES__ 📏\n\n ✅ Allow to extract 10 images by PDF.\n\n ✅ Each PDF sent, has a waiting time of 3 minutes for convert to Images, in case it exceeds the estimated time the image is removed.\n\n ✅ Then of convert to Images , Delete all\n\n ✅ If the bot does not work, you can send /start to update the bot to the new version"
+
+
+BOT_TOKEN = "YOUR TOKEN"
 BOT_INTERVAL = 3
 BOT_TIMEOUT = 30
 
@@ -26,8 +31,8 @@ def listener(mensaje_telegram):
         chat_ID = mensaje.chat.id
         if(mensaje.content_type == "text"):
             if(mensaje.text == "PDF TO IMAGES 🖼"):
-                bot.send_message(chat_ID, "hoalhola")
                 if(verificate(chat_ID)):
+                    bot.send_message(chat_ID, "Wait a moment please 🙂")
                     createPDFtoImages(chat_ID)
                     sleep(3)
                     loadImages(bot, chat_ID, listImages(chat_ID))
@@ -37,13 +42,13 @@ def listener(mensaje_telegram):
                 else:
                     bot.send_message(chat_ID, "You have not sent me any PDF 📄")
             elif(mensaje.text == "NOTICE 📢"):
-                pass
+                bot.send_message(chat_ID, msn_notice, parse_mode='MARKDOWN')
             elif(mensaje.text == "INFO ℹ"):
-                pass
+                bot.send_message(chat_ID, msn_info, parse_mode='MARKDOWN',disable_web_page_preview=True)
         elif(mensaje.content_type == "document"):
 
             if(countPDFs(chat_ID) <= 1):
-                bot.send_message(chat_ID, "Wait a moment please 🙂")
+                
                 fileID = mensaje.document.file_id
                 hilaDownload = threading.Thread(target=downloadPDF, args=(bot, fileID, chat_ID))
                 hilaDownload.start()

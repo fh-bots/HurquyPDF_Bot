@@ -27,10 +27,10 @@ $ python hurquypdf_bot.py
 
 ### __Test execution__
 
-![Prueba1](https://user-images.githubusercontent.com/29264001/52979539-1155ce80-33a4-11e9-82fd-aef1d8a14648.png)
+![Prueba1](https://user-images.githubusercontent.com/29264001/54874261-89555100-4db5-11e9-909c-023d18279bcb.png)
 
 
-### __Developed with__ 🛠️
+### __Developed with__
 
 * [Python](https://python.org/) - Programming language
 * [Visual Code](https://code.visualstudio.com/) - Source code editor
@@ -48,7 +48,7 @@ I used [Git](https://git-scm.com//) for the version control sytem
 
 ### __Licence__ 📄
 
-This project has the licence (GPL v3) - look at the file [LICENSE]()
+This project has the licence (GPL v3) - look at the file [LICENSE](https://github.com/jhonijlm/HurquyPDF_Bot/blob/master/LICENCE)
 
 ### __Expressions of gratitude__ 🎁
 
@@ -56,7 +56,7 @@ This project has the licence (GPL v3) - look at the file [LICENSE]()
 * Publicly thank 🤓
 * etc.
 
-### __Contact__ 💻
+### __Contact me__ 💻
 
 * Twitter ▶ [jhonijlm](https://twitter.com/jhonijlm)
 * Facebook ▶ [jhonijlm](https://www.facebook.com/jhonijlm/)
