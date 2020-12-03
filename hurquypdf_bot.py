@@ -19,7 +19,7 @@ msn_info = "A Bot [@HurquyPDF_Bot](https://t.me/HurquyPDF_Bot) that allow conver
 msn_notice = "__RULES__ 📏\n\n ✅ Allow to extract 10 images by PDF.\n\n ✅ Each PDF sent, has a waiting time of 3 minutes for convert to Images, in case it exceeds the estimated time the image is removed.\n\n ✅ Then of convert to Images , Delete all\n\n ✅ If the bot does not work, you can send /start to update the bot to the new version"
 
 
-BOT_TOKEN = "YOUR TOKEN"
+BOT_TOKEN = "1427302131:AAFLr2GEe74lPFT3n1bZyT_qyK1fobQqNlM"
 BOT_INTERVAL = 3
 BOT_TIMEOUT = 30
 
