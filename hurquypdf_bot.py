@@ -16,7 +16,7 @@ $ pip install pypdf2
 
 
 msn_info = "A Bot [@HurquyPDF_Bot](https://t.me/HurquyPDF_Bot) that allow convert PDF to Images  \n\nThe Project [@HurquyPDF_Bot](https://t.me/HurquyPDF_Bot) \n__Github__: [jhonijlm](https://github.com/jhonijlm) \n__Twitter__: [jhnoijlm](https://twitter.com/jhonijlm) \nDonate: [jhonijlm](https://www.paypal.me/jhonijlm)"
-msn_notice = "__RULES__ 📏\n\n ✅ Allow to extract 10 images by PDF.\n\n ✅ Each PDF sent, has a waiting time of 3 minutes for convert to Images, in case it exceeds the estimated time the image is removed.\n\n ✅ Then of convert to Images , Delete all\n\n ✅ If the bot does not work, you can send /start to update the bot to the new version"
+msn_notice = "__RULES__ 📏\n\n ✅ Allow to make 10 images by PDF.\n\n ✅ Each PDF sent, has a waiting time of 3 minutes for convert to Images, in case it exceeds the estimated time the image is removed.\n\n ✅ Then of convert to Images , Delete all\n\n ✅ If the bot does not work, you can send /start to update the bot to the new version"
 
 
 BOT_TOKEN = "1427302131:AAFLr2GEe74lPFT3n1bZyT_qyK1fobQqNlM"
